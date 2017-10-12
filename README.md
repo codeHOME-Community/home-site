@@ -1,7 +1,9 @@
 # codeHOME Home
 ## Community project 1
 The home site of codeHOME. Community project #1.
-
+Everyone is free to contribute, no matter how much experience you have! Even non-coders are welcome for documentation, spell checking, design etc.
+## Contributing
+To be written
 ## Technologies we want to use
  - Bootstrap Base
     - HTML and CSS
