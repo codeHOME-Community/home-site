@@ -1,0 +1,21 @@
+{
+  "name": "Obscure References",
+  "description": "A function has been written that takes an array, and iteratively squares each element. It then subtracts the original array from the modified array, returning the result. ",
+  "examples": [
+    {
+      "input": "[1, 2, 3, 4, 5]",
+      "process": "[1, 2, 3, 4, 5] => [1, 4, 9, 16, 25] => [1-1, 4-2, 9-3, 16-4, 25-5]",
+      "expected_output": "[0, 2, 6, 12, 20]",
+      "actual_output": "[0, 0, 0, 0, 0]"
+    }
+  ],
+  "hints": [
+    "https:\/\/stackoverflow.com/a/6605700"
+  ],
+  "solution_explanation": "We need to dereference the input array as we copy it; in JS arrays are passed by reference. This means that when we modify 'maths', 'mathsCopy' is also updated as they are just referencing the original array. In JS you can dereference an array by just splitting it. Therefore a correct solution is to add .split(0) to the mathsCopy definition.",
+  "author": {
+    "name": "Jay Williams",
+    "discord": "@VoidCrafted#2483",
+    "profile": "https:\/\/lh5.googleusercontent.com/-Z4wuSKQT0oI/AAAAAAAAAAI/AAAAAAAAAA8/oLWR08rF3WM/photo.jpg"
+  }
+}
